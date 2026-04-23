@@ -3,7 +3,7 @@ import mujoco
 import mujoco.viewer
 import time
 
-model = mujoco.MjModel.from_xml_path('franka_ik\description\Long_Manipulator24+Gripper.xml')
+model = mujoco.MjModel.from_xml_path('franka_ik\description\Long_Manipulator50S+Gripper.xml')
 data = mujoco.MjData(model)
 ctrl = data.ctrl
 viewer = mujoco.viewer.launch_passive(model, data, show_left_ui=False, show_right_ui=True) 

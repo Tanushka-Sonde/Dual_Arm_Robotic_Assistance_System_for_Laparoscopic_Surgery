@@ -4,6 +4,14 @@ A MuJoCo-based simulation framework combining **two Franka Emika Panda arms** wi
 
 ---
 
+![System Overview](media/img2.jpeg)
+
+---
+
+![Tendon-Driven Continuum Robot (TDCR)](media/img1.jpeg)
+
+---
+
 ## Project Structure
 
 ```
