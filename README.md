@@ -17,12 +17,6 @@ A MuJoCo-based simulation framework combining **two Franka Emika Panda arms** wi
 ```
 Dual_Arm_Robotic_Assistance_System_for_Laparoscopic_Surgery/
 │
-├── two_pandas_tdcr_scale0.1.xml          # Full dual-Panda + TDCR scene (scale 0.10)
-├── two_pandas_tdcr_scale0.125.xml        # Full dual-Panda + TDCR scene (scale 0.125)
-├── two_pandas_tdcr_scale0.15.xml         # Full dual-Panda + TDCR scene (scale 0.15)
-├── two_pandas_tdcr_scale0.25.xml         # Full dual-Panda + TDCR scene (scale 0.25)
-├── two_pandas_tdcr_scale0.4.xml          # Full dual-Panda + TDCR scene (scale 0.40)
-│
 └── franka_ik/
     ├── description/                      # Robot model definitions (XML + STL meshes)
     │   ├── 3D/                           # TDCR base STL meshes
@@ -161,11 +155,7 @@ Generates the **root-level XML files** (`two_pandas_tdcr_scale*.xml`) by program
 | `scene_fankcont24.xml` | Panda + 24-seg TDCR (continuity test scene) |
 | `scene_fankcont50S.xml` | Panda + 50-seg Same TDCR (full scene) |
 | `scene_fankcont50T.xml` | Panda + 50-seg Tapering TDCR (full scene) |
-| `two_pandas_tdcr_scale0.1.xml` | Dual Pandas + TDCR at scale 0.10 |
-| `two_pandas_tdcr_scale0.125.xml` | Dual Pandas + TDCR at scale 0.125 |
-| `two_pandas_tdcr_scale0.15.xml` | Dual Pandas + TDCR at scale 0.15 |
-| `two_pandas_tdcr_scale0.25.xml` | Dual Pandas + TDCR at scale 0.25 |
-| `two_pandas_tdcr_scale0.4.xml` | Dual Pandas + TDCR at scale 0.40 |
+
 
 ---
 
