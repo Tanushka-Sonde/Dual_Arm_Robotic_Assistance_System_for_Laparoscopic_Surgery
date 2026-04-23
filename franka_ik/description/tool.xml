@@ -1,0 +1,19 @@
+<mujoco model="mesh_test">
+
+    <asset>
+        <!-- Load mesh -->
+        <mesh name="robot_mesh" file="continuum_robots\snake_robot\snake_robot.obj"/>
+        <!-- OR use OBJ -->
+        <!-- <mesh name="robot_mesh" file="meshes/robot.obj"/> -->
+    </asset>
+
+    <worldbody>
+        <body name="robot" pos="0 0 0">
+            
+            <!-- Visual geometry -->
+            <geom type="mesh" mesh="robot_mesh" rgba="0. 0. 0.7 1"/>
+
+        </body>
+    </worldbody>
+
+</mujoco>
